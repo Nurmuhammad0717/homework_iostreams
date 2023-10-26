@@ -58,7 +58,7 @@ public class SalaryCalculator {
         System.out.print("Enter the threshold :");
         int threshold = scanner.nextInt();
         if (workedHr < threshold) {
-            System.out.println("You haven't complete your responsibility");
+            System.out.println("You haven't reached overtime");
             double salaryPerHr = employee.getSalaryPerHr();
             return salaryPerHr * workedHr;
         }
