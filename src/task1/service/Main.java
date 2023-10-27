@@ -1,5 +1,7 @@
-import model.Employee;
-import service.SalaryCalculator;
+package task1.service;
+
+import task1.service.model.Employee;
+import task1.service.SalaryCalculator;
 
 import java.text.ParseException;
 import java.util.Scanner;

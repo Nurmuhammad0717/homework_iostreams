@@ -1,4 +1,4 @@
-package model;
+package task1.service.model;
 
 public class Employee {
    private String name;

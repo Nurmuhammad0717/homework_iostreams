@@ -1,6 +1,6 @@
-package service;
+package task1.service;
 
-import model.Employee;
+import task1.service.model.Employee;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 public class SalaryCalculator {
     private String start;
